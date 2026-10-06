@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: mateus999
+
+  datasource:
+    url: jdbc:postgresql://${DB_HOST:localhost}:${DB_PORT:5432}/faculdadePROJETO
+    username: postgres
+    password: Thxu7896
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+    open-in-view: false
